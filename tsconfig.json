@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es5",                          // 出力されるJavaScriptのバージョン
+      "module": "esnext",                       // モジュールシステム
+      "jsx": "react-jsx",                       // JSXサポートを有効にする
+      "strict": true,                           // 厳格な型チェック
+      "esModuleInterop": true,                  // ESモジュールとの互換性
+      "skipLibCheck": true,                     // 型定義ファイルのチェックをスキップ
+      "forceConsistentCasingInFileNames": true, // 大文字小文字を区別して参照を解決
+      "moduleResolution": "node",                // モジュール解決戦略
+      "resolveJsonModule": true                  // JSONファイルのインポートを可能にする
+    },
+    "include": ["src/**/*"],                    // コンパイル対象ファイル
+    "exclude": ["node_modules"]                 // 除外するファイル
+}
